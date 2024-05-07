@@ -1,7 +1,4 @@
-/**
- * The fields returned in the response of a DELETE request.
- */
-export type DeleteResponse<T = string> = {
+export type DeleteResponse<T> = {
   /**
    * The ID of the item that was deleted.
    */
@@ -16,4 +13,15 @@ export type DeleteResponse<T = string> = {
    * Whether the item was deleted successfully.
    */
   deleted: boolean
+
+  /**
+   * The parent resource of the item that was deleted, if applicable.
+   */
+  parent?: T
+}
+
+export interface PaginatedResponse {
+  limit: number
+  offset: number
+  count: number
 }
