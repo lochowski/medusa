@@ -1,5 +1,39 @@
 # Change Log
 
+## 1.20.6
+
+### Patch Changes
+
+- [#7271](https://github.com/medusajs/medusa/pull/7271) [`67944dcc92eabca61e433ba6c3a1e8df79637402`](https://github.com/medusajs/medusa/commit/67944dcc92eabca61e433ba6c3a1e8df79637402) Thanks [@shahednasser](https://github.com/shahednasser)! - fix(medusa): Fix request type in upload route
+
+- [#7285](https://github.com/medusajs/medusa/pull/7285) [`ea872cbda93cbcb7a6d6a30491c7efc03f7661ed`](https://github.com/medusajs/medusa/commit/ea872cbda93cbcb7a6d6a30491c7efc03f7661ed) Thanks [@riqwan](https://github.com/riqwan)! - chore(medusa): cleanup admin function
+
+- [#7275](https://github.com/medusajs/medusa/pull/7275) [`c71a06c87f1ff5949b601857a7bfdd6962c0c669`](https://github.com/medusajs/medusa/commit/c71a06c87f1ff5949b601857a7bfdd6962c0c669) Thanks [@shahednasser](https://github.com/shahednasser)! - fix(medusa): import and use `RequestQueryFields` from types package
+
+- [#7296](https://github.com/medusajs/medusa/pull/7296) [`7e43aabda05c31a3d3fdc2d997d2d270741e26d6`](https://github.com/medusajs/medusa/commit/7e43aabda05c31a3d3fdc2d997d2d270741e26d6) Thanks [@riqwan](https://github.com/riqwan)! - chore(medusa): strict zod versions in workspace
+
+- [#7269](https://github.com/medusajs/medusa/pull/7269) [`6da2964998c12bd9bcf8536e2c6fc25fab76e84a`](https://github.com/medusajs/medusa/commit/6da2964998c12bd9bcf8536e2c6fc25fab76e84a) Thanks [@riqwan](https://github.com/riqwan)! - feat(dashboard,core,medusa,promotion): add campaigns UI
+
+- [#7201](https://github.com/medusajs/medusa/pull/7201) [`f1294156505f94bfdcbe8c621f39d1655ed5314d`](https://github.com/medusajs/medusa/commit/f1294156505f94bfdcbe8c621f39d1655ed5314d) Thanks [@riqwan](https://github.com/riqwan)! - feat(medusa,core-flows,types): added a basic endpoint for complete cart
+
+- [#7289](https://github.com/medusajs/medusa/pull/7289) [`e5904f8c758f850779380962ef9ac4efe0521878`](https://github.com/medusajs/medusa/commit/e5904f8c758f850779380962ef9ac4efe0521878) Thanks [@adrien2p](https://github.com/adrien2p)! - fix(medusa): Missing middlewares export
+
+- [#7248](https://github.com/medusajs/medusa/pull/7248) [`0430e63b0bc1b3ed9c13bb6514b22474676e9509`](https://github.com/medusajs/medusa/commit/0430e63b0bc1b3ed9c13bb6514b22474676e9509) Thanks [@riqwan](https://github.com/riqwan)! - feat(core-flows,typers,utils,medusa): add payment auth step to complete cart workflow
+
+- [#7249](https://github.com/medusajs/medusa/pull/7249) [`a736e728b8a527119bc9ac331878a030a1e8a2f0`](https://github.com/medusajs/medusa/commit/a736e728b8a527119bc9ac331878a030a1e8a2f0) Thanks [@adrien2p](https://github.com/adrien2p)! - fix: Product categories repository and end points
+
+- [#7277](https://github.com/medusajs/medusa/pull/7277) [`9a14aeebcfb6b064b16c2bde5dcab23aa9be0152`](https://github.com/medusajs/medusa/commit/9a14aeebcfb6b064b16c2bde5dcab23aa9be0152) Thanks [@riqwan](https://github.com/riqwan)! - feat(core-flows,types,medusa): API to add promotions to campaign
+
+- [#7243](https://github.com/medusajs/medusa/pull/7243) [`5443c69794d77a086fbbdc68b9beaca4c8c6334e`](https://github.com/medusajs/medusa/commit/5443c69794d77a086fbbdc68b9beaca4c8c6334e) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - feat(link-module): Order Product link
+
+- Updated dependencies [[`7a351eef09f769e1e28e6f136438fa30f607f34b`](https://github.com/medusajs/medusa/commit/7a351eef09f769e1e28e6f136438fa30f607f34b), [`f1294156505f94bfdcbe8c621f39d1655ed5314d`](https://github.com/medusajs/medusa/commit/f1294156505f94bfdcbe8c621f39d1655ed5314d), [`0430e63b0bc1b3ed9c13bb6514b22474676e9509`](https://github.com/medusajs/medusa/commit/0430e63b0bc1b3ed9c13bb6514b22474676e9509), [`144e09e852a5be625d1e325b70f9255aa36369a5`](https://github.com/medusajs/medusa/commit/144e09e852a5be625d1e325b70f9255aa36369a5), [`45e2228a07fef92c68e0ac3a209554f7e02b5773`](https://github.com/medusajs/medusa/commit/45e2228a07fef92c68e0ac3a209554f7e02b5773), [`5bc780a64626a89f42a46723a7bc84a41ca3d953`](https://github.com/medusajs/medusa/commit/5bc780a64626a89f42a46723a7bc84a41ca3d953), [`520867b074c9b1b77ad78388d6d326058c7d8195`](https://github.com/medusajs/medusa/commit/520867b074c9b1b77ad78388d6d326058c7d8195), [`a736e728b8a527119bc9ac331878a030a1e8a2f0`](https://github.com/medusajs/medusa/commit/a736e728b8a527119bc9ac331878a030a1e8a2f0), [`9a14aeebcfb6b064b16c2bde5dcab23aa9be0152`](https://github.com/medusajs/medusa/commit/9a14aeebcfb6b064b16c2bde5dcab23aa9be0152), [`39c3f6d92a9f77b8befdde2693bd8a215080f90e`](https://github.com/medusajs/medusa/commit/39c3f6d92a9f77b8befdde2693bd8a215080f90e), [`5443c69794d77a086fbbdc68b9beaca4c8c6334e`](https://github.com/medusajs/medusa/commit/5443c69794d77a086fbbdc68b9beaca4c8c6334e), [`5228b14ca94d3a73e1af519fc0c1b12fcaefd462`](https://github.com/medusajs/medusa/commit/5228b14ca94d3a73e1af519fc0c1b12fcaefd462), [`9d3f49531493b4cf73def5a10a57ff0d432cc6db`](https://github.com/medusajs/medusa/commit/9d3f49531493b4cf73def5a10a57ff0d432cc6db)]:
+  - @medusajs/workflows-sdk@0.1.7
+  - @medusajs/core-flows@0.0.10
+  - @medusajs/utils@1.12.0
+  - @medusajs/modules-sdk@1.13.0
+  - @medusajs/medusa-cli@1.3.23
+  - @medusajs/link-modules@0.2.12
+
 ## 1.20.5
 
 ### Patch Changes
