@@ -12,11 +12,10 @@ import loadConfig from "./config"
 import expressLoader from "./express"
 import featureFlagsLoader from "./feature-flags"
 import { registerProjectWorkflows } from "./helpers/register-workflows"
-import medusaProjectApisLoader from "./load-medusa-project-apis"
 import Logger from "./logger"
 import loadMedusaApp from "./medusa-app"
 import pgConnectionLoader from "./pg-connection"
-// import subscribersLoader from "./subscribers"
+import subscribersLoader from "./subscribers"
 
 type Options = {
   directory: string
@@ -54,7 +53,7 @@ async function loadEntrypoints(
     next()
   })
 
-  // subscribersLoader({ container })
+  subscribersLoader({ container })
 
   await apiLoader({
     container,
@@ -106,14 +105,6 @@ export default async ({
     expressApp,
     featureFlagRouter
   )
-
-  await medusaProjectApisLoader({
-    rootDirectory,
-    container,
-    app: expressApp,
-    configModule,
-    activityId: "medusa-project-apis",
-  })
 
   await createDefaultsWorkflow(container).run()
 
